@@ -1,0 +1,209 @@
+.mainbody{
+    background-color: #afd4c0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    background-color: #519872;
+    justify-content: space-around;
+    padding-right: 40px;
+}
+.houserdashboard{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 15vw;
+    padding-right: 1px
+}
+.housertext{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.dashboardtext{
+    /* border: 1px solid rgb(243, 118, 118); */
+    font-size: 25px;
+    color: white;
+    display: flex;
+    padding-top: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+.logout{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    color: white;
+    padding-top: 53px;
+    font-family: 'Open Sans', sans-serif;
+    border-style: none;
+    background-color: transparent;
+    font-size: 17px;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+}
+/* ___________________________________________Header */
+.whitespace1{
+    display: flex;
+    height: 90vh;
+    width: 55vw;
+    background-color: rgb(236, 250, 246);
+    justify-content: flex-start;
+    padding-top: 10px;
+    flex-direction: column;
+}
+.lowermainbody{
+    display: flex;
+    justify-content: center;
+}
+.addnewbut{
+    border-radius: 5px;
+    height: 4vh;
+    width: 10vw;
+    border-style: none;
+    background-color: #8AEA92;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+}
+.inputbox{
+    /* border: 1px solid purple; */
+    display: flex;
+    padding-top: 2vh;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    margin: 5px 5px 5px 30px;
+    padding-bottom: 10px;
+    width: 42vw;
+}
+.inputbox input{
+    height: 4vh;
+    width: 4vw;
+    margin: 1vh;
+    border: #519872 1px solid;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.button1{
+    height: 4vh;
+    width: 4vw;
+    margin: 1vh;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #8AEA92;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.button2{
+    height: 4vh;
+    width: 4vw;
+    margin: 1vh;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #3b5249;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.inputbox p{
+    font-family: 'Open Sans', sans-serif;
+}
+.listingsbox{
+    display: flex;
+    margin: 10px;
+    padding-left: 40px;
+}
+.text{
+    font-weight: bold;
+    font-size: 20px;
+}
+.houserdashboard logos{
+    margin: 10px;
+    padding-top: 12px;
+}
+.houserdashboard texts{
+    display: flex;
+}
+/* font-family: 'Open Sans', sans-serif; */
+.infomationbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2vw;
+}
+
+.biginfobox{
+    display: flex;
+    height: 25vh;
+    width: 50vw;
+    /* border: 1px solid red; */
+    background-color: #DEDEDE;
+    overflow: hidden;
+
+}
+.infoboxleft{
+    border-right: 1px solid black;
+    width: 25%;
+    background-color: #CCCCCC;
+}
+
+.infoboxcenter{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    font-size: 15px;
+    line-height: 15px;
+    max-height: 100%;
+    position: relative;
+    /* max-height: 100%; */
+    overflow: auto;
+    padding-left: 10px;
+    
+}
+.infoboxright{
+    border-left: 1px solid black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    font-size: 11px;
+    line-height: 0px;
+    padding-left: 10px;
+    /* line-height: 15px; */
+    max-height: 100%;
+    position: relative;
+    /* max-height: 100%; */
+    overflow: auto;
+    
+}
+.infoboxcenter h1{
+    font-size: 15px;
+    line-height: 0px;
+}
+
+.infoboxcenter p{
+    display: flex;
+    text-align: start
+}
+
+.infoboxright p{
+    font-weight: bold;
+}
+
+
+
+
+

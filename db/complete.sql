@@ -1,0 +1,28 @@
+insert into houser 
+(user_id, 
+ name, 
+ loan, 
+ monthly_mortgage, 
+ recommended_rent, 
+ desired_rent, 
+ address, 
+ city, 
+ state, 
+ zip, 
+ description,
+ image,
+ desired_rents) 
+values ($13,
+        $1, 
+        $2, 
+        $3, 
+        $4, 
+        $5, 
+        $6, 
+        $7, 
+        $8, 
+        $9,
+        $10, 
+        $11,
+        $12 )
+returning *

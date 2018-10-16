@@ -1,0 +1,91 @@
+section{
+    background-color: #afd4c0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.whitespace{
+    display: flex;
+    height: 100vh;
+    width: 45vw;
+    background-color: white;
+    justify-content: center;
+    
+}
+
+.infobox{
+    /* border: 1px solid rgb(211, 7, 7); */
+    display: flex;
+    height: 70vh;
+    width: 45vw;
+    margin-top: 14vh;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.infoinside{
+    /* border: 1px solid blue; */
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 2.5vw;
+    width: 43vw;
+    padding-bottom: 15px
+    
+
+}
+.loginRegHouse{
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    display: flex;
+    margin: 15px;
+    
+    
+}
+.but1{
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    border-style: none;
+    background-color: #8AEA92;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+.one{
+    background-color: #3b5249;
+    color: white;
+
+}
+
+section input{
+    width: 39vw;
+    height: 20px;
+    border: #afd4c0 1px solid;
+    /* border-style: none */
+    padding-left: 10px;
+    /* border: 1px solid rgb(105, 240, 240); */
+
+    
+}
+
+/* infoinside P{
+    padding-right: 350px;
+    font-size: 10px;
+    margin: 0;
+} */
+.infoinside h1{
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+    padding-left: 3vw
+}
+.infoinside img{
+    padding-right: 20px
+}
